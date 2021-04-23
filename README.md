@@ -9,6 +9,7 @@ The purpose of this analysis was to analyze Amazon Music rating data to determin
 In order to perform our analysis, we first imported the Music data into a Pyspark dataframe. Next, we trimmed the dataframe to include only columns relevant to our analysis. We then applied a number of filters on the Amazon Music data. First, we filtered for only the rows where the total votes for a product was greater than 20. This ensured the products we reviewed were somewhat popular and thus relevant to our analysis. Next, we filtered for the product rows where at least 50% of total votes were considered helpful votes. From there, we split the remaining rows into two different dataframes: the products that were a part of the Vine program, and those that were not. 
 
 - Number of Vine and Non-Vine Reviews
+
 After our filters were applied, we were left with just 7 Vine reviews. There were 105,979 Non-Vine reviews. Snapshots of these dataframes are shown below: 
 
 Vine Reviews: 
@@ -18,9 +19,11 @@ Non-Vine Reviews:
 ![Non-Vine Reviews](images/nonvinereviews.png)
 
 - Number of Five Star Reviews
+
 Of our 7 Vine reviews, 0 of them were Five Star reviews. Of our 105,979 Non-Vine reviews, 67,580 of them were Five Star reviews.
 
 - Percentage of Reviews Receiveing Five Stars
+
 Of the Vine reviews, 0% were Five Star reviews. Of the Non-Vine reviews, 63.8% were Five Star reviews. 
 
 ## Summary
