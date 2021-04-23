@@ -31,4 +31,4 @@ After all our filters were applied, we were left with a very small number of Vin
 
 This analysis should be performed again with the filteres changed to include a greater number of products in the Vine program. This would allow for a more accurate representation of the amount of Five Star reviews. We could either lower the total number of votes required, or lower the percentage of helpful votes required. 
 
-Please see the .ipynb files included in this repository to view the methodology used in our analysis. 
+Please see the Vine_Review_Analysis.ipynb file included in this repository to view the methodology used in our analysis. 
